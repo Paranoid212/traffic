@@ -1,0 +1,11 @@
+path: /content/BTL_FINAL_70_15_15
+train: train/images
+val: val/images
+test: test/images
+
+nc: 5
+names: ['Traffic signs', 'Cars', 'Motorcycles', 'Pedestrians', 'Others']
+
+segmentation:
+  classes: 3
+  names: ['Lane Line', 'Road Marking', 'Drivable Area']
